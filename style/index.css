@@ -1,0 +1,439 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+.parent-container {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-container {
+  position: relative;
+  width: 100%;
+}
+
+.main-service-container {
+  position: relative;
+  width: 100%;
+  display: grid;
+  background-image: url("/assets/service-bg.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-gallery-container {
+  position: relative;
+  width: 100%;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #6c757d;
+  width: 100%;
+}
+
+.footer h3,
+p {
+  color: white;
+}
+
+.footer-content {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.footer-content p {
+  bottom: 10%;
+  color: white;
+}
+
+.booking {
+  text-decoration: none;
+  color: white;
+}
+
+.service-heading {
+  text-align: center;
+}
+.service-heading h1 {
+  color: black;
+}
+
+.solid-line {
+  border: 2px solid black;
+}
+
+.service-list span {
+  color: white;
+  font-weight: bolder;
+}
+
+.service-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-item-name {
+  flex: 50%;
+  text-align: center;
+}
+
+.service-item-price {
+  flex: 50%;
+  text-align: center;
+}
+
+.footer-contact-info,
+.footer-address,
+.footer-opening-hours {
+  text-align: center;
+}
+
+.main-gallery-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  background-image: url("/assets/service-bg.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery-title-section {
+  text-align: center;
+}
+
+.gallery-title {
+  color: black;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.main-team-section {
+  background-image: url("/assets/service-bg.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.team-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: transparent;
+}
+
+.team-member {
+  width: calc(33.33% - 20px);
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: center;
+  background-color: transparent;
+}
+
+.team-member p {
+  color: black;
+  font-weight: bolder;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.main-booking {
+  background-image: url("/assets/service-bg.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.booking-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 15px;
+  font-family: Arial, sans-serif;
+  background-color: #6c757d;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group select {
+  height: 40px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(226, 138, 16);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.booking-icon {
+  width: 100%;
+  justify-content: center;
+}
+
+.form-group label {
+  font-weight: bolder;
+  color: white;
+}
+
+.about-us {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url("/assets/service-bg.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-about-us-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.row-about-us {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid black;
+  margin: 30px;
+  border-radius: 10px;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+  background-color: #6c757d;
+}
+
+.row-about-us:hover {
+  background-color: rgb(226, 138, 16);
+  cursor: pointer;
+}
+
+.column-about-us {
+  text-align: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.column-about-us h3,
+p {
+  color: black;
+}
+
+.home-content-containe {
+  background-image: url("/assets/service-bg.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero {
+  background-image: url("/assets/service-bg.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  flex-direction: column;
+}
+
+.hero-content {
+  width: 600px;
+  background-color: grey;
+  border-radius: 50px;
+}
+
+.hero-content-container {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 0.1%;
+  padding-right: 0.1%;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid #555;
+}
+
+.services {
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.service-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.services h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.service-card {
+  margin-bottom: 30px;
+}
+
+.service-card img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.hero-content-container p {
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  .text-container {
+    font-size: 8vw; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1024px) {
+  .team-member {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .team-member {
+    width: 100%;
+  }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+  .main-about-us-container,
+  .services {
+    flex-direction: column;
+  }
+
+  .footer-contact-info,
+  .footer-address,
+  .footer-opening-hours,
+  .footer {
+    flex-direction: column;
+  }
+}
