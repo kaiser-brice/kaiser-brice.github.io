@@ -296,6 +296,9 @@ p {
 }
 
 .home-content-containe {
+  position: relative;
+  display: flex;
+  flex-direction: column;
   background-image: url("/assets/service-bg.avif");
   background-position: center;
   background-repeat: no-repeat;
@@ -317,7 +320,9 @@ p {
 }
 
 .hero-content {
-  width: 600px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
   background-color: grey;
   border-radius: 50px;
 }
@@ -426,7 +431,8 @@ p {
     max-width: 100%;
   }
   .main-about-us-container,
-  .services {
+  .services,
+  .home-content-container {
     flex-direction: column;
   }
 
