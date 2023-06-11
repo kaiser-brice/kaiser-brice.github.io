@@ -310,7 +310,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -432,7 +432,9 @@ p {
   }
   .main-about-us-container,
   .services,
-  .home-content-container {
+  .home-content-container,
+  .hero-content,
+  .hero-content-container {
     flex-direction: column;
   }
 
